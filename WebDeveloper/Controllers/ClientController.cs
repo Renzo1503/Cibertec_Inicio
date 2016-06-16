@@ -38,8 +38,7 @@ namespace WebDeveloper.Controllers
         //Modificar cliente
         public ActionResult Edit(int id)
         {
-            Client client = _client.GetList().Find(x => x.ID == id);
-            return View(client);
+            return View(_client.GetClient(id));
         }
 
         [HttpPost]
@@ -57,15 +56,18 @@ namespace WebDeveloper.Controllers
         //Eliminar cliente
         public ActionResult Delete(int id)
         {
-            Client client = _client.GetList().Find(x => x.ID == id);
+            var client = _client.GetClient(id);
+            if (client == null)
+                RedirectToAction("Index");
             return View(client);
         }
 
         [HttpPost]
         public ActionResult Delete(Client client)
-        {            
-            _client.Delete(client);
-            return RedirectToAction("Index");            
+        {
+            if (_client.Delete(client) > 0)
+                return RedirectToAction("Index");
+            return View(client);
         }
 
     }

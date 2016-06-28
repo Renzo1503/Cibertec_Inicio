@@ -14,11 +14,11 @@ namespace WebDeveloper.DataAccess
         {
             var clients = new List<Client>
             {
-                new Client { Name="Jose", LastName="Párez"},
-                new Client { Name="Juan", LastName="Párez"},
-                new Client { Name="Juanelo", LastName="Párez"},
-                new Client { Name="Renzo", LastName="Párez"},
-                new Client { Name="Victor", LastName="Párez"},
+                new Client { Name="Jose", Apellido="Párez"},
+                new Client { Name="Juan", Apellido="Párez"},
+                new Client { Name="Juanelo", Apellido="Párez"},
+                new Client { Name="Renzo", Apellido="Párez"},
+                new Client { Name="Victor", Apellido="Párez"},
             };
 
             clients.ForEach(c => context.Clients.Add(c));

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace WebDeveloper.Model
 {
@@ -10,6 +11,8 @@ namespace WebDeveloper.Model
         public string Name { get; set; }
         [Display(Name = "Last Name")]
         [Required(ErrorMessage = "This Last Name is required")]
-        public string LastName { get; set; }
+        public string Apellido { get; set; }
+
+        public DateTime DateCreation { get; set; }
     }
 }

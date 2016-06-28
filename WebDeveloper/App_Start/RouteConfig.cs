@@ -11,24 +11,25 @@ namespace WebDeveloper
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
-            //Si no se muestra la linea siguiente no podrian usar las extensiones.
-            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            ////Si no se muestra la linea siguiente no podrian usar las extensiones.
+            //routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            routes.MapRoute(
-                name: "Razor",
-                url: "Razor/{id}",
-                defaults: new
-                {
-                    controller = "Razor",
-                    action = "Product",
-                    id = UrlParameter.Optional
-                }
-            );
+            ////Razor:  25-12-2016  //No se coloca "/" por q podria confundirse como parametro
+            //routes.MapRoute(
+            //    name: "RazorId",
+            //    url: "Razor/{id}",
+            //    defaults: new
+            //    {
+            //        controller = "Razor",
+            //        action = "EntryId",
+            //    }
+            //);
 
-            /*
-            1.El nombre no se puede repetir.
-            2.Todos los mapeos que se deban crear deben estar anter del Default.
-            */
+            ///*
+            //1.El nombre no se puede repetir.
+            //2.Todos los mapeos que se deban crear deben estar anter del Default.
+            //*/
+            routes.MapMvcAttributeRoutes();
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",

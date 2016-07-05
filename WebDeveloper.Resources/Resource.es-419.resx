@@ -117,10 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Target" xml:space="preserve">
-    <value>H4sIAAAAAAAEAM1X247bNhB9L5B/EPjUAhtzLy/tQkqwtXcLo+vdRbRJn2lp7CXCi0pShv1tecgn9Rc61N2S7bWTIigMGBY1l8PDMzP0P1++hu/XUgQrMJZrFZGL0TkJQCU65WoZkdwt3v5K3r9781N4m8p18Km2u/J26KlsRF6cy64ptckLSGZHkidGW71wo0RLylJNL8/Pf6MXFxQwBMFYQRB+yJXjEooHfBxrlUDmciZmOgVhq3V8ExdRgwcmwWYsgYj8BfMJrEDoDMxowhy7SRKwlgQ3gjOEE4NYkIAppR1zCPb6o4XYGa2WcYYLTDxvMkC7BRMWqk1ct+bH7uf80u+Hto51qCS3TssTA15cVQTRvvs30UwaApHCW6TabfyuCxojMhYclCNBP9X1WBhv1uO4OJJR6XQWDF+dNbJA9fjPWTDOhcsNRApyZxhaPOVzwZM/YfOsP4OKVC5EFyOixHdbC7j0ZHwSt/kAiwr5dEICuu1H+46NW8en3NVUuatLEjxgcjYX0Eigw0DstIE/QIFhDtIn5hwYPMFpCgWJg+y9XP67zoaawxoiwYyt70Et3UtE8CcJ7vga0nqlQvBRcSw5dHImhx0ID2e9Z9b9iMwhbaU0FBjWsGMcmatQoVD8EqzdZL5Da1iVldxslXx7j2XQGNyWaLHMWwxlrY9qOe+C2oBqOwotW0rdeuie3hPOWJYhjZ1eVK0EcdmIxm/j04tTljFoYnfUaIO2yYRyZEvovcXUiPSOG+t8/5szf1DjVA7Mto5gD711qm2W+6XYkl7b+9/NQe9qyPW59EK1PN7h1iRaFLuEBlDTnwaOxThggpkdFT7WIpdqX5c45F1WTte/XDk+Qlt/3Sjt6jBSSHsc9PmmA8J7Xa9/foe03zdpsjc10NN6WOnu9WE8EGJpQgKkaMVTL8J4Yx3IQhij+G9RV2ttMGOKL8C6cjAQHIWXvVH+/xmr1NpUHDVbf/hs457TV6fXiYOlO1TUipnkhZmfJVv/8t0j6pRop42dYWs8Zq4cGCuloiOSzjWiL1F+58gZlldIuzficAKWL9sQ/n6sIPG6bYPWNlO10DXbuK0uotqkdxgzcCz1fdo4vmCJw9e+YRd3hk9M5GhyK+eQTtVj7rLc3VgLci62bj8hPZy/mKvbmMPHzD/Z/2ILCJPjFuBR/Z5zkTa473bIZ08IL5SqVhAV3pkw3HLTRHrQ6shAFX0TyED5SnsGmQkMZh9VzFbwLdjwcnQPS5Zs6i65P8jrB7FNezjhbGmYtFWM1t//y6P+b967fwHjgBkjGA4AAA==</value>
+  <data name="Client_DateCreation" xml:space="preserve">
+    <value>Fecha Creacion</value>
   </data>
-  <data name="DefaultSchema" xml:space="preserve">
-    <value>dbo</value>
+  <data name="Client_Id" xml:space="preserve">
+    <value>Codigo</value>
+  </data>
+  <data name="Client_LastName" xml:space="preserve">
+    <value>Apellidos</value>
+  </data>
+  <data name="Client_Name" xml:space="preserve">
+    <value>Nombres</value>
+  </data>
+  <data name="Client_Title" xml:space="preserve">
+    <value>Lista de Clientes</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Crear Nuevo</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detalles</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Editar</value>
   </data>
 </root>

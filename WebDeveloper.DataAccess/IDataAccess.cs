@@ -3,7 +3,7 @@
 
 namespace WebDeveloper.DataAccess
 {
-    interface IDataAccess<T>
+    public interface IDataAccess<T>
     {
         List<T> GetList();
         int Add(T entity);

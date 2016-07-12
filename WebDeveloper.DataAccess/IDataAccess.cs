@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 
-
 namespace WebDeveloper.DataAccess
 {
     public interface IDataAccess<T>
